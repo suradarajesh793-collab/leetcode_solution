@@ -5,7 +5,7 @@ class Solution:
         s=[]
         for i in  range(n):
             r.append(nums[i])
-        for j in range(n,n*2):
+        for j in range(n,len(nums)):
             l.append(nums[j]) 
         for k in range(n):
             s.append(r[k])
